@@ -1,9 +1,9 @@
 <?php
 $host     = "remotemysql.com"; // Host name 
 $username = "pVrORKezli"; // Mysql username 
-$password = "Wsy4c56mDy"; // Mysql password 
+$password = "0ucnwF0fNX"; // Mysql password 
 
-$conn=mysqli_connect("remotemysql.com", "pVrORKezli", "Wsy4c56mDy", "pVrORKezli");
+$conn=mysqli_connect("remotemysql.com", "pVrORKezli", "0ucnwF0fNX", "pVrORKezli");
 
 
 if (mysqli_connect_errno($conn)) {
