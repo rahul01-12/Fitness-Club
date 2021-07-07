@@ -23,7 +23,7 @@
                       </div>--><?php
    $dbhost = 'remotemysql.com';
    $dbuser = ' pVrORKezli';
-   $dbpass = 'Wsy4c56mDy';
+   $dbpass = '0ucnwF0fNX';
    
    $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
    
