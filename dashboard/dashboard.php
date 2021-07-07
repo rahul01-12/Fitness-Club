@@ -1,5 +1,5 @@
 
-// <?php include('header.php');?>
+
   <body class="skin-blue">
     <div class="wrapper">
       
@@ -98,4 +98,4 @@
 
         </section>
       </div>
-//      <?php include('footer.php');?>
+
