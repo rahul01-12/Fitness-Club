@@ -21,9 +21,9 @@
                         <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
                         <button class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="" data-original-title="Remove"><i class="fa fa-times"></i></button>
                       </div>--><?php
-   $dbhost = 'localhost';
-   $dbuser = 'root';
-   $dbpass = 'root';
+   $dbhost = 'remotemysql.com';
+   $dbuser = ' pVrORKezli';
+   $dbpass = 'Wsy4c56mDy';
    
    $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
    
@@ -32,7 +32,7 @@
    }
    $id = '1';
    $sql = "SELECT * FROM users WHERE user_status = '$id' ";
-   mysqli_select_db($conn,"fitness_club");
+   mysqli_select_db($conn,"pVrORKezli");
    $retval = mysqli_query( $conn,$sql );
    
    if(! $retval ) {
