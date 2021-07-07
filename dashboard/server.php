@@ -8,7 +8,7 @@
 	$_SESSION['success'] = "";
 
 	// connect to database
-	$db = mysqli_connect('localhost', 'root', 'root', 'fitness_club');
+	$db = mysqli_connect('remotemysql.com', 'pVrORKezli', 'Wsy4c56mDy', 'pVrORKezli');
 
 	
 	// ... 
